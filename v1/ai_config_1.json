@@ -1,0 +1,145 @@
+{
+  "hand_strength_limits": {
+    "preflop":  [  10, 35, 45, 55, 60  ],
+    "flop":     [  15, 40, 55, 65, 75  ],
+    "turn":     [  20, 45, 60, 75, 85  ],
+    "river":    [  25, 55, 75, 85, 95  ]
+  },
+  "stage_decisions": {
+    "1": {
+      "default_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "first_raise": {
+        "coefficient": "fr",
+        "multiplier": 1
+      },
+      "max_call_amount": {
+        "coefficient": "bb",
+        "multiplier": 1
+      },
+      "reraise_border": {
+        "coefficient": "",
+        "multiplier": 0
+      },
+      "reraise_answer": {
+        "coefficient": "",
+        "multiplier": 0
+      }
+    },
+    "2": {
+      "default_answer": {
+        "coefficient": "fr",
+        "multiplier": 0
+      },
+      "first_raise": {
+        "coefficient": "fr",
+        "multiplier": 1
+      },
+      "max_call_amount": {
+        "coefficient": "bb",
+        "multiplier": 2
+      },
+      "reraise_border": {
+        "coefficient": "pr",
+        "multiplier": 1
+      },
+      "reraise_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      }
+    },
+    "3": {
+      "default_answer": {
+        "coefficient": "fr",
+        "multiplier": 1
+      },
+      "first_raise": {
+        "coefficient": "fr",
+        "multiplier": 2
+      },
+      "max_call_amount": {
+        "coefficient": "bb",
+        "multiplier": 2
+      },
+      "reraise_border": {
+        "coefficient": "pr",
+        "multiplier": 2
+      },
+      "reraise_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      }
+    },
+    "4": {
+      "default_answer": {
+        "coefficient": "fr",
+        "multiplier": 3
+      },
+      "first_raise": {
+        "coefficient": "fr",
+        "multiplier": 1
+      },
+      "max_call_amount": {
+        "coefficient": "bb",
+        "multiplier": 5
+      },
+      "reraise_border": {
+        "coefficient": "pr",
+        "multiplier": 3
+      },
+      "reraise_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      }
+    },
+    "5": {
+      "default_answer": {
+        "coefficient": "p",
+        "multiplier": 0.5
+      },
+      "first_raise": {
+        "coefficient": "fr",
+        "multiplier": 0
+      },
+      "max_call_amount": {
+        "coefficient": "s",
+        "multiplier": 0.5
+      },
+      "reraise_border": {
+        "coefficient": "pr",
+        "multiplier": 6
+      },
+      "reraise_answer": {
+        "coefficient": "tc",
+        "multiplier": 0
+      }
+    },
+    "6": {
+      "default_answer": {
+        "coefficient": "p",
+        "multiplier": 1
+      },
+      "first_raise": {
+        "coefficient": "fr",
+        "multiplier": 0
+      },
+      "max_call_amount": {
+        "coefficient": "s",
+        "multiplier": 1
+      },
+      "reraise_border": {
+        "coefficient": "pr",
+        "multiplier": 100
+      },
+      "reraise_answer": {
+        "coefficient": "fr",
+        "multiplier": 1
+      }
+    }
+  },
+  "is_adaptive": false,
+  "final_emotion_percent": 7,
+  "game_emotion_percent": 10
+}

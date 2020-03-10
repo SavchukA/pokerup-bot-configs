@@ -1,0 +1,277 @@
+{
+  "hand_strength_limits": {
+    "preflop": [ 40, 60, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200 ],
+    "flop": [ -99, -98, -97, 45, 85, 194, 195, 196, 197, 198, 199, 200 ],
+    "turn": [ -99, -98, -97, -96, -95, -94, 35, 70, 85, 198, 199, 200 ],
+    "river": [ -99, -98, -97, -96, -95, -94, -93, -92, -91, -90, 30 ]
+  },
+  "stage_decisions": {
+    "1": {
+      "default_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "first_raise": {
+        "coefficient": "fr",
+        "multiplier": 1
+      },
+      "max_call_amount": {
+        "coefficient": "s",
+        "multiplier": 200
+      },
+      "reraise_border": {
+        "coefficient": "pr",
+        "multiplier": 100
+      },
+      "reraise_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      }
+    },
+    "2": {
+      "default_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "first_raise": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "max_call_amount": {
+        "coefficient": "s",
+        "multiplier": 0.8
+      },
+      "reraise_border": {
+        "coefficient": "pr",
+        "multiplier": 0
+      },
+      "reraise_answer": {
+        "coefficient": "tc",
+        "multiplier": 0
+      }
+    },
+    "3": {
+      "default_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "first_raise": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "max_call_amount": {
+        "coefficient": "s",
+        "multiplier": 0.5
+      },
+      "reraise_border": {
+        "coefficient": "bb",
+        "multiplier": 0.1
+      },
+      "reraise_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      }
+    },
+    "4": {
+      "default_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "first_raise": {
+        "coefficient": "fr",
+        "multiplier": 1
+      },
+      "max_call_amount": {
+        "coefficient": "s",
+        "multiplier": 200
+      },
+      "reraise_border": {
+        "coefficient": "pr",
+        "multiplier": 100
+      },
+      "reraise_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      }
+    },
+    "5": {
+      "default_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "first_raise": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "max_call_amount": {
+        "coefficient": "s",
+        "multiplier": 0.5
+      },
+      "reraise_border": {
+        "coefficient": "pr",
+        "multiplier": 1
+      },
+      "reraise_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      }
+    },
+    "6": {
+      "default_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "first_raise": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "max_call_amount": {
+        "coefficient": "s",
+        "multiplier": 0.5
+      },
+      "reraise_border": {
+        "coefficient": "pr",
+        "multiplier": 1
+      },
+      "reraise_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      }
+    },
+    "7": {
+      "default_answer": {
+        "coefficient": "fr",
+        "multiplier": 1
+      },
+      "first_raise": {
+        "coefficient": "fr",
+        "multiplier": 1
+      },
+      "max_call_amount": {
+        "coefficient": "s",
+        "multiplier": 100
+      },
+      "reraise_border": {
+        "coefficient": "pr",
+        "multiplier": 100
+      },
+      "reraise_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      }
+    },
+    "8": {
+      "default_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "first_raise": {
+        "coefficient": "fr",
+        "multiplier": 1
+      },
+      "max_call_amount": {
+        "coefficient": "s",
+        "multiplier": 1
+      },
+      "reraise_border": {
+        "coefficient": "pr",
+        "multiplier": 10
+      },
+      "reraise_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      }
+    },
+    "9": {
+      "default_answer": {
+        "coefficient": "fr",
+        "multiplier": 2
+      },
+      "first_raise": {
+        "coefficient": "fr",
+        "multiplier": 2
+      },
+      "max_call_amount": {
+        "coefficient": "s",
+        "multiplier": 0.1
+      },
+      "reraise_border": {
+        "coefficient": "bb",
+        "multiplier": 0.1
+      },
+      "reraise_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      }
+    },
+    "10": {
+      "default_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "first_raise": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "max_call_amount": {
+        "coefficient": "bb",
+        "multiplier": 0.1
+      },
+      "reraise_border": {
+        "coefficient": "bb",
+        "multiplier": 0.1
+      },
+      "reraise_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      }
+    },
+    "11": {
+      "default_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "first_raise": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "max_call_amount": {
+        "coefficient": "s",
+        "multiplier": 200
+      },
+      "reraise_border": {
+        "coefficient": "pr",
+        "multiplier": 200
+      },
+      "reraise_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      }
+    },
+    "12": {
+      "default_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "first_raise": {
+        "coefficient": "tc",
+        "multiplier": 1
+      },
+      "max_call_amount": {
+        "coefficient": "bb",
+        "multiplier": 0.1
+      },
+      "reraise_border": {
+        "coefficient": "bb",
+        "multiplier": 0.1
+      },
+      "reraise_answer": {
+        "coefficient": "tc",
+        "multiplier": 1
+      }
+    }
+  },
+  "is_adaptive": false,
+  "final_emotion_percent": 40,
+  "game_emotion_percent": 6
+}

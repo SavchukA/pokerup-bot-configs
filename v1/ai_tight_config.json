@@ -1,0 +1,497 @@
+{
+	"hand_strength_limits": {
+		"preflop":	[	 45,  56,  65, 	 80,  85, 185,  186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200],
+		"flop": 	[	-99, -98, -97, 	-96, -95, -94,  45,  69,  80,  85, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200],
+		"turn": 	[	-99, -98, -97, 	-96, -95, -94, -93, -92, -91, -90, -89,  55,  65,  80,  85, 195, 196, 197, 198, 199, 200],
+		"river": 	[	-99, -98, -97, 	-96, -95, -94, -93, -92, -91, -90, -89, -88, -87, -86, -85, -84,  45,  55,  65,  80,  85]
+	},
+	"stage_decisions": {
+		"1": {
+			"default_answer": {
+				"coefficient": "tc",
+				"multiplier": 0.0
+			},
+			"first_raise": {
+				"coefficient": "fr",
+				"multiplier": 0.0
+			},
+			"max_call_amount": {
+				"coefficient": "bb",
+				"multiplier": 0.0
+			},
+			"reraise_border": {
+				"coefficient": "bb",
+				"multiplier": 0.0
+			},
+			"reraise_answer": {
+				"coefficient": "fr",
+				"multiplier": 0.0
+			}
+		},
+		"2": {
+			"default_answer": {
+				"coefficient": "tc",
+				"multiplier": 0.0
+			},
+			"first_raise": {
+				"coefficient": "tc",
+				"multiplier": 1.0
+			},
+			"max_call_amount": {
+				"coefficient": "bb",
+				"multiplier": 1.0
+			},
+			"reraise_border": {
+				"coefficient": "pr",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "tc",
+				"multiplier": 0.0
+			}
+		},
+		"3": {
+			"default_answer": {
+				"coefficient": "tc",
+				"multiplier": 1.0
+			},
+			"first_raise": {
+				"coefficient": "fr",
+				"multiplier": 2.0
+			},
+			"max_call_amount": {
+				"coefficient": "bb",
+				"multiplier": 4.0
+			},
+			"reraise_border": {
+				"coefficient": "pr",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "tc",
+				"multiplier": 1.0
+			}
+		},
+		"4": {
+			"default_answer": {
+				"coefficient": "p",
+				"multiplier": 0.66
+			},
+			"first_raise": {
+				"coefficient": "bb",
+				"multiplier": 2.0
+			},
+			"max_call_amount": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_border": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "fr",
+				"multiplier": 2.0
+			}
+		},
+		"5": {
+			"default_answer": {
+				"coefficient": "p",
+				"multiplier": 0.5
+			},
+			"first_raise": {
+				"coefficient": "fr",
+				"multiplier": 2.0
+			},
+			"max_call_amount": {
+				"coefficient": "bb",
+				"multiplier": 7.0
+			},
+			"reraise_border": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "tc",
+				"multiplier": 1.0
+			}
+		},
+		"6": {
+			"default_answer": {
+				"coefficient": "p",
+				"multiplier": 0.66
+			},
+			"first_raise": {
+				"coefficient": "bb",
+				"multiplier": 2.0
+			},
+			"max_call_amount": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_border": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "fr",
+				"multiplier": 2.0
+			}
+		},
+		"7": {
+			"default_answer": {
+				"coefficient": "tc",
+				"multiplier": 0.0
+			},
+			"first_raise": {
+				"coefficient": "fr",
+				"multiplier": 0.0
+			},
+			"max_call_amount": {
+				"coefficient": "bb",
+				"multiplier": 0.1
+			},
+			"reraise_border": {
+				"coefficient": "bb",
+				"multiplier": 0.0
+			},
+			"reraise_answer": {
+				"coefficient": "fr",
+				"multiplier": 0.0
+			}
+		},
+		"8": {
+			"default_answer": {
+				"coefficient": "tc",
+				"multiplier": 0.0
+			},
+			"first_raise": {
+				"coefficient": "tc",
+				"multiplier": 1.0
+			},
+			"max_call_amount": {
+				"coefficient": "bb",
+				"multiplier": 1.0
+			},
+			"reraise_border": {
+				"coefficient": "pr",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "tc",
+				"multiplier": 0.0
+			}
+		},
+		"9": {
+			"default_answer": {
+				"coefficient": "p",
+				"multiplier": 0.66
+			},
+			"first_raise": {
+				"coefficient": "bb",
+				"multiplier": 2.0
+			},
+			"max_call_amount": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_border": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "fr",
+				"multiplier": 2.0
+			}
+		},
+		"10": {
+			"default_answer": {
+				"coefficient": "p",
+				"multiplier": 0.5
+			},
+			"first_raise": {
+				"coefficient": "fr",
+				"multiplier": 2.0
+			},
+			"max_call_amount": {
+				"coefficient": "bb",
+				"multiplier": 7.0
+			},
+			"reraise_border": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "tc",
+				"multiplier": 1.0
+			}
+		},
+		"11": {
+			"default_answer": {
+				"coefficient": "p",
+				"multiplier": 0.66
+			},
+			"first_raise": {
+				"coefficient": "bb",
+				"multiplier": 2.0
+			},
+			"max_call_amount": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_border": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "fr",
+				"multiplier": 2.0
+			}
+		},
+		"12": {
+			"default_answer": {
+				"coefficient": "tc",
+				"multiplier": 0.0
+			},
+			"first_raise": {
+				"coefficient": "fr",
+				"multiplier": 0.0
+			},
+			"max_call_amount": {
+				"coefficient": "bb",
+				"multiplier": 0.0
+			},
+			"reraise_border": {
+				"coefficient": "bb",
+				"multiplier": 0.0
+			},
+			"reraise_answer": {
+				"coefficient": "fr",
+				"multiplier": 0.0
+			}
+		},
+		"13": {
+			"default_answer": {
+				"coefficient": "tc",
+				"multiplier": 0.0
+			},
+			"first_raise": {
+				"coefficient": "tc",
+				"multiplier": 1.0
+			},
+			"max_call_amount": {
+				"coefficient": "bb",
+				"multiplier": 1.0
+			},
+			"reraise_border": {
+				"coefficient": "pr",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "tc",
+				"multiplier": 0.0
+			}
+		},
+		"14": {
+			"default_answer": {
+				"coefficient": "tc",
+				"multiplier": 1.0
+			},
+			"first_raise": {
+				"coefficient": "fr",
+				"multiplier": 2.0
+			},
+			"max_call_amount": {
+				"coefficient": "bb",
+				"multiplier": 4.0
+			},
+			"reraise_border": {
+				"coefficient": "pr",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "tc",
+				"multiplier": 1.0
+			}
+		},
+		"15": {
+			"default_answer": {
+				"coefficient": "p",
+				"multiplier": 0.5
+			},
+			"first_raise": {
+				"coefficient": "fr",
+				"multiplier": 2.0
+			},
+			"max_call_amount": {
+				"coefficient": "bb",
+				"multiplier": 7.0
+			},
+			"reraise_border": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "tc",
+				"multiplier": 1.0
+			}
+		},
+		"16": {
+			"default_answer": {
+				"coefficient": "p",
+				"multiplier": 0.66
+			},
+			"first_raise": {
+				"coefficient": "bb",
+				"multiplier": 2.0
+			},
+			"max_call_amount": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_border": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "fr",
+				"multiplier": 2.0
+			}
+		},
+		"17": {
+			"default_answer": {
+				"coefficient": "tc",
+				"multiplier": 0.0
+			},
+			"first_raise": {
+				"coefficient": "fr",
+				"multiplier": 0.0
+			},
+			"max_call_amount": {
+				"coefficient": "bb",
+				"multiplier": 0.0
+			},
+			"reraise_border": {
+				"coefficient": "bb",
+				"multiplier": 0.0
+			},
+			"reraise_answer": {
+				"coefficient": "fr",
+				"multiplier": 0.0
+			}
+		},
+		"18": {
+			"default_answer": {
+				"coefficient": "tc",
+				"multiplier": 0.0
+			},
+			"first_raise": {
+				"coefficient": "tc",
+				"multiplier": 1.0
+			},
+			"max_call_amount": {
+				"coefficient": "bb",
+				"multiplier": 1.0
+			},
+			"reraise_border": {
+				"coefficient": "pr",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "tc",
+				"multiplier": 0.0
+			}
+		},
+		"19": {
+			"default_answer": {
+				"coefficient": "tc",
+				"multiplier": 1.0
+			},
+			"first_raise": {
+				"coefficient": "fr",
+				"multiplier": 2.0
+			},
+			"max_call_amount": {
+				"coefficient": "bb",
+				"multiplier": 4.0
+			},
+			"reraise_border": {
+				"coefficient": "pr",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "tc",
+				"multiplier": 1.0
+			}
+		},
+		"20": {
+			"default_answer": {
+				"coefficient": "p",
+				"multiplier": 0.66
+			},
+			"first_raise": {
+				"coefficient": "bb",
+				"multiplier": 2.0
+			},
+			"max_call_amount": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_border": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "fr",
+				"multiplier": 2.0
+			}
+		},
+		"21": {
+			"default_answer": {
+				"coefficient": "p",
+				"multiplier": 0.5
+			},
+			"first_raise": {
+				"coefficient": "fr",
+				"multiplier": 2.0
+			},
+			"max_call_amount": {
+				"coefficient": "bb",
+				"multiplier": 7.0
+			},
+			"reraise_border": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "tc",
+				"multiplier": 1.0
+			}
+		},
+		"22": {
+			"default_answer": {
+				"coefficient": "p",
+				"multiplier": 0.66
+			},
+			"first_raise": {
+				"coefficient": "bb",
+				"multiplier": 2.0
+			},
+			"max_call_amount": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_border": {
+				"coefficient": "s",
+				"multiplier": 1.0
+			},
+			"reraise_answer": {
+				"coefficient": "fr",
+				"multiplier": 2.0
+			}
+		}
+	},
+	"is_adaptive": false,
+	"final_emotion_percent": 7,
+	"game_emotion_percent": 10
+}
